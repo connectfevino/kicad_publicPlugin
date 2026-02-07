@@ -1,0 +1,32 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "publicPlugin",
+    "description": "A plugin that does awesome things.",
+    "description_full": "This is the full description of the plugin.\nIt has many features.",
+    "identifier": "com.github.username.publicplugin",
+    "type": "plugin",
+    "author": {
+        "name": "Jane Doe",
+        "contact": {
+            "web": "https://github.com/username/awesome-plugin"
+        }
+    },
+    "maintainer": {
+        "name": "Jane Doe",
+        "contact": {
+            "web": "https://github.com/username/awesome-plugin"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/username/awesome-plugin"
+    },
+    "versions": [
+        {
+            "version": "0.1",
+            "status": "stable",
+            "kicad_version": "8.0",
+            "download_url": "https://github.com/ajinkya-open/kicad_plugin.git"
+        }
+    ]
+}
